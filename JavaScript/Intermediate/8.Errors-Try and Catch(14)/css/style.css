@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 97vh;
+}
+
+.InpForm {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-self: center;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+
+.InpForm button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
