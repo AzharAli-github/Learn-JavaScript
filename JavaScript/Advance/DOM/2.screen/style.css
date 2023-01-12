@@ -1,0 +1,17 @@
+p {
+    font-family: cursive;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid green;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    transition: all ease 0.5s;
+}
