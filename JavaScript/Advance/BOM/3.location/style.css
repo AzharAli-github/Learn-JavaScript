@@ -1,0 +1,17 @@
+p {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid turquoise;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: turquoise;
+}
