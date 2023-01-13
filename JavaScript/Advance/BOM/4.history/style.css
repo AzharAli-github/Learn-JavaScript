@@ -1,0 +1,18 @@
+p {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid rgb(30, 30, 126);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(30, 30, 126);
+    color: white;
+    cursor: pointer;
+}
