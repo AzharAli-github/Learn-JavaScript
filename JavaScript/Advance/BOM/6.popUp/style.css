@@ -1,0 +1,23 @@
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+button {
+    font-size: 22px;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 700;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
