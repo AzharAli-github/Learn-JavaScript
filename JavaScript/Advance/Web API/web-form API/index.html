@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Form API</title>
+</head>
+
+<body>
+    <h1>Web Form Validation API</h1>
+    <!-- Example Three -->
+    <h2>checkValidity</h2>
+    <input id="inputOne" type="number" min="100" max="300" required>
+    <button onclick="DisplayOne()">Click</button>
+    <p id="textOne"></p>
+    <!-- Example Two -->
+    <h2>rangeOverflow()</h2>
+    <input id="inputTwo" type="number" max="100">
+    <button onclick="DisplayTwo()">Click</button>
+    <p id="textTwo"></p>
+    <!-- Example Three -->
+    <h2>rangeUnderflow()</h2>
+    <input type="number" min="100" id="inpThree">
+    <button onclick="DisplayThree()">Click</button>
+    <p id="textThree"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
