@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+h4 {
+    font-size: 40px;
+    width: 200px;
+    text-align: center;
+}
