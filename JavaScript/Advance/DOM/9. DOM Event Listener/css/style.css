@@ -1,0 +1,10 @@
+h2 {
+    font-family: monospace;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
